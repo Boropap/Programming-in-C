@@ -1,0 +1,21 @@
+Some Syntax:
+
+gcc 	= 
+ansi 	= 
+pedantic= 
+Wall 	=
+Werror 	= 
+lm 	=
+
+
+
+Compile on Terminal:
+    
+    	gcc -ansi -pedantic -Wall -Werro -lm [file].c (MINE)
+
+	gcc-14 -g -O2 -o {executable} -std=gnu23 -static {files} -lm (KATTIS)
+
+Running:
+
+	./output.exe
+
